@@ -1,0 +1,86 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    margin: 0;
+    font-family: "Lucida Grande";
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  .clear {
+    clear: left;
+  }
+  li{
+    list-style: none;
+  }
+  /* Header */
+  header {
+    height: 90px;
+    width: 100%;
+    background-color:#26d0c9;
+    opacity: 0.9;
+    position :fixed;
+    top: 0;
+  }
+  .daftar {
+    max-width: 1170px;
+    font-size: 22px;
+    width: 100%;
+    padding: 0 5px;
+    margin: 0 auto;
+    color: white;
+  }
+  .daftar-kiri {
+    text-align: center;
+    font-size: 30px;
+  }
+  span{
+    background-color: #fc4a1a;
+    padding: 20px;
+    color: white;
+    border-radius: 20px;
+    position: absolute;
+    top: 10px;
+    float: left;
+    box-shadow: 0 7px #824411;
+  }  
+  span:active{
+    top: 7px;
+    box-shadow: none;
+  }
+  span:hover{
+    color: aqua;
+  }
+  .background {
+    padding: 110px 0 100px 0;
+    background-color: #7cf6f2;
+    background-size: cover;
+    color: white;
+    text-align: center;
+  }
+
+  .gambar img{
+    width: 150px;
+  }
+  .gambar p{
+    color: black;
+    font-size: 25px;
+  }
+  /* Footer */
+  .bawah{
+    height: 103px;
+    width: 100%;
+    background-color:#26d0c9;
+    position: absolute;
+    top: 557px;
+}
+.bawah p{
+    color: white;
+    text-align: center;
+    padding-top: 7px;
+    font-size: 30px;
+}
