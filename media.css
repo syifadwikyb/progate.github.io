@@ -1,0 +1,50 @@
+@media all and (max-width: 1000px) {
+    .gumbur {
+      width: 50%;
+      margin-bottom: 50px;
+    }
+    .daftar{
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+    .bawah{
+        top: 850px;
+    }
+}
+  @media all and (max-width: 670px) {
+    .gumbur {
+      width: 100%;
+    }
+    
+    footer {
+      text-align: center;
+    }
+    .bawah{
+        top: 800px;
+        height: 45px;
+    }
+    .bawah p{
+        padding-top :0px;
+        font-size: 15px;
+    }
+    .gambar h2{
+        font-size: 20px;
+        padding-bottom: 0px;
+    }
+    .gimbir-icon img{
+        width:85px;
+    }
+    .text-contents{
+        padding:5px 15px;
+        font-size: 8px;
+    }
+    .daftar{
+        font-size: 15px;
+    }
+    header{
+        height: 50px;
+    }
+    .background{
+        padding: 50px 0 60px 0;
+    }
+}
